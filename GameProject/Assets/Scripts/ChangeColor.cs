@@ -8,7 +8,6 @@ public class ChangeColor : MonoBehaviour
     public void Click()
     {
         GetComponent<Image>().color = Color.gray;
-        //Notes should be played here
         GetComponent<AudioSource>().Play();
     }
     //Start Same functions
@@ -45,7 +44,6 @@ public class ChangeColor : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0))
         {
             GetComponent<Image>().color = Color.gray;
-            //Notes should be played here
             GetComponent<AudioSource>().Play();
         }
     }
