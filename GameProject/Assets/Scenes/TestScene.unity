@@ -291,7 +291,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 39873326}
-          m_MethodName: ClickUp
+          m_MethodName: OnClickExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -313,7 +313,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3a9db18986582ea4aa5a347d9047e892, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -410,8 +410,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c9dc3774a5b12429380c7a0faad872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CatSound: {fileID: 0}
-  NormalSound: {fileID: 0}
+  CatSound: {fileID: 8300000, guid: b03eb40dc70e65940a547da6254fcafa, type: 3}
+  NormalSound: {fileID: 8300000, guid: 3a9db18986582ea4aa5a347d9047e892, type: 3}
 --- !u!114 &39873327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -481,8 +481,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 117.1875, y: -170.45}
-  m_SizeDelta: {x: 78.125, y: 340.9}
+  m_AnchoredPosition: {x: 217.5, y: -316.44998}
+  m_SizeDelta: {x: 145, y: 632.89996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &196157527
 MonoBehaviour:
@@ -565,7 +565,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 196157527}
-          m_MethodName: ClickUp
+          m_MethodName: OnClickExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -742,8 +742,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 39.0625, y: -170.45}
-  m_SizeDelta: {x: 78.125, y: 340.9}
+  m_AnchoredPosition: {x: 72.5, y: -316.44998}
+  m_SizeDelta: {x: 145, y: 632.89996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &232554702
 MonoBehaviour:
@@ -826,7 +826,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 232554702}
-          m_MethodName: ClickUp
+          m_MethodName: OnClickExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1074,7 +1074,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 425027820}
-          m_MethodName: ClickUp
+          m_MethodName: OnClickExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1096,7 +1096,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 52e98f92445fc8040bd31c17ae4c2753, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1193,8 +1193,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c9dc3774a5b12429380c7a0faad872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CatSound: {fileID: 0}
-  NormalSound: {fileID: 0}
+  CatSound: {fileID: 8300000, guid: 793c9105774af844ab30d8c685a9e1fb, type: 3}
+  NormalSound: {fileID: 8300000, guid: 52e98f92445fc8040bd31c17ae4c2753, type: 3}
 --- !u!114 &425027821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1264,8 +1264,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 585.9375, y: -170.45}
-  m_SizeDelta: {x: 78.125, y: 340.9}
+  m_AnchoredPosition: {x: 1087.5, y: -316.44998}
+  m_SizeDelta: {x: 145, y: 632.89996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &443028422
 MonoBehaviour:
@@ -1335,7 +1335,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 443028424}
-          m_MethodName: ClickUp
+          m_MethodName: OnClickExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1525,8 +1525,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 195.3125, y: -170.45}
-  m_SizeDelta: {x: 78.125, y: 340.9}
+  m_AnchoredPosition: {x: 362.5, y: -316.44998}
+  m_SizeDelta: {x: 145, y: 632.89996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &458347564
 MonoBehaviour:
@@ -1863,8 +1863,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 429.6875, y: -170.45}
-  m_SizeDelta: {x: 78.125, y: 340.9}
+  m_AnchoredPosition: {x: 797.5, y: -316.44998}
+  m_SizeDelta: {x: 145, y: 632.89996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577736000
 MonoBehaviour:
@@ -1934,7 +1934,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 577736002}
-          m_MethodName: ClickUp
+          m_MethodName: OnClickExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2125,7 +2125,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.19999695}
+  m_AnchoredPosition: {x: 0, y: -0.2000122}
   m_SizeDelta: {x: 0, y: -0.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &817906088
@@ -2170,8 +2170,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 273.4375, y: -170.45}
-  m_SizeDelta: {x: 78.125, y: 340.9}
+  m_AnchoredPosition: {x: 507.5, y: -316.44998}
+  m_SizeDelta: {x: 145, y: 632.89996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &856183300
 MonoBehaviour:
@@ -2241,7 +2241,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 856183302}
-          m_MethodName: ClickUp
+          m_MethodName: OnClickExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2502,7 +2502,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 858678155}
-          m_MethodName: ClickUp
+          m_MethodName: OnClickExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2524,7 +2524,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bb2789560c6faf446bb87be8cceed5d8, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2621,8 +2621,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c9dc3774a5b12429380c7a0faad872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CatSound: {fileID: 0}
-  NormalSound: {fileID: 0}
+  CatSound: {fileID: 8300000, guid: df28b355abe4cdd4bb9864683d9a8521, type: 3}
+  NormalSound: {fileID: 8300000, guid: bb2789560c6faf446bb87be8cceed5d8, type: 3}
 --- !u!114 &858678156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2763,7 +2763,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 867843893}
-          m_MethodName: ClickUp
+          m_MethodName: OnClickExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2785,7 +2785,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 77b20109bfd6fb14193cbaa932b63ac2, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2882,8 +2882,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c9dc3774a5b12429380c7a0faad872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CatSound: {fileID: 0}
-  NormalSound: {fileID: 0}
+  CatSound: {fileID: 8300000, guid: 1c563db04ae97c844b40d3de420915f0, type: 3}
+  NormalSound: {fileID: 8300000, guid: 77b20109bfd6fb14193cbaa932b63ac2, type: 3}
 --- !u!114 &867843894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3064,7 +3064,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1038192985}
-          m_MethodName: ClickUp
+          m_MethodName: OnClickExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3086,7 +3086,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 14a704a09299d324b8f94acea048c012, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3183,8 +3183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c9dc3774a5b12429380c7a0faad872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CatSound: {fileID: 0}
-  NormalSound: {fileID: 0}
+  CatSound: {fileID: 8300000, guid: c9933fd60abb32246b2b2b74e63d5d03, type: 3}
+  NormalSound: {fileID: 8300000, guid: 14a704a09299d324b8f94acea048c012, type: 3}
 --- !u!114 &1038192986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3254,8 +3254,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 507.8125, y: -170.45}
-  m_SizeDelta: {x: 78.125, y: 340.9}
+  m_AnchoredPosition: {x: 942.5, y: -316.44998}
+  m_SizeDelta: {x: 145, y: 632.89996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1300013482
 MonoBehaviour:
@@ -3325,7 +3325,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1300013484}
-          m_MethodName: ClickUp
+          m_MethodName: OnClickExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3610,8 +3610,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 351.5625, y: -170.45}
-  m_SizeDelta: {x: 78.125, y: 340.9}
+  m_AnchoredPosition: {x: 652.5, y: -316.44998}
+  m_SizeDelta: {x: 145, y: 632.89996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1764006611
 MonoBehaviour:
@@ -3681,7 +3681,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1764006613}
-          m_MethodName: ClickUp
+          m_MethodName: OnClickExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

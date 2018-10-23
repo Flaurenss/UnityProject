@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour {
 
-    public static string PianoMode = "cat";
+    public static string PianoMode = "normal";
 
     // Use this for initialization
     void Start ()
