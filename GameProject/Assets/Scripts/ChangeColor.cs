@@ -25,8 +25,29 @@ public class ChangeColor : MonoBehaviour
 
     public void Click()
     {
-        //GetComponent<Image>().color = Color.gray;
         thisImage.color = ActiveColor;
+        PlayPianoSound();
+    }
+
+    public void OnClickExit()
+    {
+        thisImage.color = NotActiveColor;
+        Debug.Log("Exit de " + transform.name);
+    }
+
+    //This function will be called when the user pass the mouse over the key after having clicked
+    public void OnClickEnter()
+    {
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            Debug.Log("Entra en tecla " + transform.name);
+            thisImage.color = ActiveColor;
+            PlayPianoSound();
+        }
+    }
+
+    public void PlayPianoSound()
+    {
         if (soundMode == "normal")
         {
             soundToPlay.clip = NormalSound;
@@ -36,34 +57,6 @@ public class ChangeColor : MonoBehaviour
         {
             soundToPlay.clip = CatSound;
             soundToPlay.Play();
-        }
-        
-    }
-
-    public void OnClickExit()
-    {
-        thisImage.color = NotActiveColor;
-        //GetComponent<Image>().color = Color.white;
-        Debug.Log("Exit");
-    }
-
-    //This function will be called when the user pass the mouse over the key  after having clicked
-    public void OnClickEnter()
-    {
-        if (Input.GetKey(KeyCode.Mouse0))
-        {
-            //GetComponent<Image>().color = Color.gray;
-            thisImage.color = ActiveColor;
-            if (soundMode == "normal")
-            {
-                soundToPlay.clip = NormalSound;
-                soundToPlay.Play();
-            }
-            else
-            {
-                soundToPlay.clip = CatSound;
-                soundToPlay.Play();
-            }
         }
     }
 }
