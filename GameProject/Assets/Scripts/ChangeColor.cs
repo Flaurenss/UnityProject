@@ -5,10 +5,34 @@ using UnityEngine.UI;
 
 public class ChangeColor : MonoBehaviour
 {
+    #region Properites
+    private string SoundMode;
+    private AudioSource SoundToPlay;
+    public AudioClip CatSound;
+    public AudioClip NormalSound;
+    #endregion
+
+    void Start()
+    {
+        SoundMode = SoundManager.PianoMode;
+        SoundToPlay = GetComponent<AudioSource>();
+    }
+
     public void Click()
     {
         GetComponent<Image>().color = Color.gray;
-        GetComponent<AudioSource>().Play();
+        //GetComponent<AudioSource>().Play();
+        if (SoundMode == "normal")
+        {
+            SoundToPlay.clip = NormalSound;
+            SoundToPlay.Play();
+        }
+        else
+        {
+            SoundToPlay.clip = CatSound;
+            SoundToPlay.Play();
+        }
+        
     }
     //Start Same functions
     public void ClickUp()
@@ -44,7 +68,17 @@ public class ChangeColor : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0))
         {
             GetComponent<Image>().color = Color.gray;
-            GetComponent<AudioSource>().Play();
+            //GetComponent<AudioSource>().Play();
+            if (SoundMode == "normal")
+            {
+                SoundToPlay.clip = NormalSound;
+                SoundToPlay.Play();
+            }
+            else
+            {
+                SoundToPlay.clip = CatSound;
+                SoundToPlay.Play();
+            }
         }
     }
 }
