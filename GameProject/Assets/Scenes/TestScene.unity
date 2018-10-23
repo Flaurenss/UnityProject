@@ -412,6 +412,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CatSound: {fileID: 8300000, guid: b03eb40dc70e65940a547da6254fcafa, type: 3}
   NormalSound: {fileID: 8300000, guid: 3a9db18986582ea4aa5a347d9047e892, type: 3}
+  ActiveColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  NotActiveColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &39873327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -481,8 +483,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 217.5, y: -316.44998}
-  m_SizeDelta: {x: 145, y: 632.89996}
+  m_AnchoredPosition: {x: 117.1875, y: -170.45}
+  m_SizeDelta: {x: 78.125, y: 340.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &196157527
 MonoBehaviour:
@@ -497,6 +499,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CatSound: {fileID: 8300000, guid: 561d11025b8bdcc4fb8c5129cc57a39a, type: 3}
   NormalSound: {fileID: 8300000, guid: 6195f9c2c80efac4ba1f48317114e95e, type: 3}
+  ActiveColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+  NotActiveColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &196157528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -742,8 +746,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 72.5, y: -316.44998}
-  m_SizeDelta: {x: 145, y: 632.89996}
+  m_AnchoredPosition: {x: 39.0625, y: -170.45}
+  m_SizeDelta: {x: 78.125, y: 340.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &232554702
 MonoBehaviour:
@@ -758,6 +762,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CatSound: {fileID: 8300000, guid: 80ee98dbaf433ab4d86918ae0737d528, type: 3}
   NormalSound: {fileID: 8300000, guid: 107ccce7ad10e024182b45d5bea5e95f, type: 3}
+  ActiveColor: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
+  NotActiveColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &232554703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1195,6 +1201,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CatSound: {fileID: 8300000, guid: 793c9105774af844ab30d8c685a9e1fb, type: 3}
   NormalSound: {fileID: 8300000, guid: 52e98f92445fc8040bd31c17ae4c2753, type: 3}
+  ActiveColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  NotActiveColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &425027821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1264,8 +1272,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1087.5, y: -316.44998}
-  m_SizeDelta: {x: 145, y: 632.89996}
+  m_AnchoredPosition: {x: 585.9375, y: -170.45}
+  m_SizeDelta: {x: 78.125, y: 340.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &443028422
 MonoBehaviour:
@@ -1456,6 +1464,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CatSound: {fileID: 8300000, guid: 21c6bdef32016924a83ebfee64cdb0f5, type: 3}
   NormalSound: {fileID: 8300000, guid: 840230421bb0d5b479117ce28c82fdf7, type: 3}
+  ActiveColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  NotActiveColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &443028425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1525,8 +1535,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 362.5, y: -316.44998}
-  m_SizeDelta: {x: 145, y: 632.89996}
+  m_AnchoredPosition: {x: 195.3125, y: -170.45}
+  m_SizeDelta: {x: 78.125, y: 340.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &458347564
 MonoBehaviour:
@@ -1717,6 +1727,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CatSound: {fileID: 8300000, guid: e749790fc663b3f4fb220ddefd8bd78c, type: 3}
   NormalSound: {fileID: 8300000, guid: 827343eb43446364b89812a90ffd5d08, type: 3}
+  ActiveColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  NotActiveColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &458347567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1863,8 +1875,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 797.5, y: -316.44998}
-  m_SizeDelta: {x: 145, y: 632.89996}
+  m_AnchoredPosition: {x: 429.6875, y: -170.45}
+  m_SizeDelta: {x: 78.125, y: 340.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577736000
 MonoBehaviour:
@@ -2055,6 +2067,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CatSound: {fileID: 8300000, guid: 3f3bf2b6b94cf6741b8d56edb7bf718a, type: 3}
   NormalSound: {fileID: 8300000, guid: 97c57691102dc6843840a05eba971acc, type: 3}
+  ActiveColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  NotActiveColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &577736003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2104,7 +2118,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &817906087
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2170,8 +2184,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 507.5, y: -316.44998}
-  m_SizeDelta: {x: 145, y: 632.89996}
+  m_AnchoredPosition: {x: 273.4375, y: -170.45}
+  m_SizeDelta: {x: 78.125, y: 340.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &856183300
 MonoBehaviour:
@@ -2362,6 +2376,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CatSound: {fileID: 8300000, guid: 13def430c240d494f8fa69d7078c8255, type: 3}
   NormalSound: {fileID: 8300000, guid: bdbb7baaa8333bd4285d23e485681526, type: 3}
+  ActiveColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  NotActiveColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &856183303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2623,6 +2639,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CatSound: {fileID: 8300000, guid: df28b355abe4cdd4bb9864683d9a8521, type: 3}
   NormalSound: {fileID: 8300000, guid: bb2789560c6faf446bb87be8cceed5d8, type: 3}
+  ActiveColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  NotActiveColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &858678156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2884,6 +2902,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CatSound: {fileID: 8300000, guid: 1c563db04ae97c844b40d3de420915f0, type: 3}
   NormalSound: {fileID: 8300000, guid: 77b20109bfd6fb14193cbaa932b63ac2, type: 3}
+  ActiveColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  NotActiveColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &867843894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3185,6 +3205,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CatSound: {fileID: 8300000, guid: c9933fd60abb32246b2b2b74e63d5d03, type: 3}
   NormalSound: {fileID: 8300000, guid: 14a704a09299d324b8f94acea048c012, type: 3}
+  ActiveColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  NotActiveColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &1038192986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3254,8 +3276,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 942.5, y: -316.44998}
-  m_SizeDelta: {x: 145, y: 632.89996}
+  m_AnchoredPosition: {x: 507.8125, y: -170.45}
+  m_SizeDelta: {x: 78.125, y: 340.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1300013482
 MonoBehaviour:
@@ -3446,6 +3468,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CatSound: {fileID: 8300000, guid: d64defd91fd835b419ba66a038d11b2a, type: 3}
   NormalSound: {fileID: 8300000, guid: 2def2ed2eb85e81459761b1d18894af7, type: 3}
+  ActiveColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  NotActiveColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1300013485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3610,8 +3634,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 652.5, y: -316.44998}
-  m_SizeDelta: {x: 145, y: 632.89996}
+  m_AnchoredPosition: {x: 351.5625, y: -170.45}
+  m_SizeDelta: {x: 78.125, y: 340.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1764006611
 MonoBehaviour:
@@ -3802,6 +3826,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CatSound: {fileID: 8300000, guid: ba9f174c69251ef4eb901afeaf23cf62, type: 3}
   NormalSound: {fileID: 8300000, guid: afff7335433db284482185310c081ffc, type: 3}
+  ActiveColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  NotActiveColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1764006614
 MonoBehaviour:
   m_ObjectHideFlags: 0

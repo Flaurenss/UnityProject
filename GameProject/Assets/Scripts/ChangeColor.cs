@@ -6,78 +6,63 @@ using UnityEngine.UI;
 public class ChangeColor : MonoBehaviour
 {
     #region Properites
-    private string SoundMode;
-    private AudioSource SoundToPlay;
+    private string soundMode;
+    private AudioSource soundToPlay;
+    private Image thisImage;
+
     public AudioClip CatSound;
     public AudioClip NormalSound;
+    public Color ActiveColor;
+    public Color NotActiveColor;
     #endregion
 
     void Start()
     {
-        SoundMode = SoundManager.PianoMode;
-        SoundToPlay = GetComponent<AudioSource>();
+        soundMode = SoundManager.PianoMode;
+        soundToPlay = GetComponent<AudioSource>();
+        thisImage = GetComponent<Image>();
     }
 
     public void Click()
     {
-        GetComponent<Image>().color = Color.gray;
-        //GetComponent<AudioSource>().Play();
-        if (SoundMode == "normal")
+        //GetComponent<Image>().color = Color.gray;
+        thisImage.color = ActiveColor;
+        if (soundMode == "normal")
         {
-            SoundToPlay.clip = NormalSound;
-            SoundToPlay.Play();
+            soundToPlay.clip = NormalSound;
+            soundToPlay.Play();
         }
         else
         {
-            SoundToPlay.clip = CatSound;
-            SoundToPlay.Play();
-        }
-        
-    }
-    //Start Same functions
-    public void ClickUp()
-    {
-        if (transform.parent.name == "Tonos")
-        {
-            GetComponent<Image>().color = Color.white;
-        }
-        else
-        {
-            GetComponent<Image>().color = Color.black;
+            soundToPlay.clip = CatSound;
+            soundToPlay.Play();
         }
         
     }
 
     public void OnClickExit()
     {
-        if (transform.parent.name == "Tonos")
-        {
-            GetComponent<Image>().color = Color.white;
-        }
-        else
-        {
-            GetComponent<Image>().color = Color.black;
-        }
-        
+        thisImage.color = NotActiveColor;
+        //GetComponent<Image>().color = Color.white;
+        Debug.Log("Exit");
     }
-    //End from same functions
 
-    //This function will be called when the user pass the mouse over the key and after having clicked
+    //This function will be called when the user pass the mouse over the key  after having clicked
     public void OnClickEnter()
     {
         if (Input.GetKey(KeyCode.Mouse0))
         {
-            GetComponent<Image>().color = Color.gray;
-            //GetComponent<AudioSource>().Play();
-            if (SoundMode == "normal")
+            //GetComponent<Image>().color = Color.gray;
+            thisImage.color = ActiveColor;
+            if (soundMode == "normal")
             {
-                SoundToPlay.clip = NormalSound;
-                SoundToPlay.Play();
+                soundToPlay.clip = NormalSound;
+                soundToPlay.Play();
             }
             else
             {
-                SoundToPlay.clip = CatSound;
-                SoundToPlay.Play();
+                soundToPlay.clip = CatSound;
+                soundToPlay.Play();
             }
         }
     }
