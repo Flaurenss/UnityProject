@@ -32,7 +32,6 @@ public class ChangeColor : MonoBehaviour
     public void OnClickExit()
     {
         thisImage.color = NotActiveColor;
-        Debug.Log("Exit de " + transform.name);
     }
 
     //This function will be called when the user pass the mouse over the key after having clicked
@@ -40,7 +39,6 @@ public class ChangeColor : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Mouse0))
         {
-            Debug.Log("Entra en tecla " + transform.name);
             thisImage.color = ActiveColor;
             PlayPianoSound();
         }
